@@ -29,8 +29,8 @@ class Project
     #[Assert\Length(
         min: 3,
         max: 50,
-        minMessage: 'The name property must have at least {{ limit }} characters',
-        maxMessage: 'The name property must have a maximum of {{ limit }} characters',
+        minMessage: 'The description property must have at least {{ limit }} characters',
+        maxMessage: 'The description property must have a maximum of {{ limit }} characters',
     )]
     #[ORM\Column(length: 255)]
     private ?string $description = null;
