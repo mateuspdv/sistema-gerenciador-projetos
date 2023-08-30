@@ -2,6 +2,12 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
+    title: 'Projetos',
+    icon: 'file-text-outline',
+    link: '/pages/project',
+    home: true,
+  },
+  {
     title: 'Teste',
     icon: 'alert-triangle-outline',
     link: '/pages/teste',

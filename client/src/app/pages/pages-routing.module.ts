@@ -73,6 +73,10 @@ const routes: Routes = [{
       loadChildren: () => import('./teste/teste.module').then(m => m.TesteModule),
     },
     {
+      path: 'project',
+      loadChildren: () => import('./project/project.module').then(m => m.ProjectModule),
+    },
+    {
       path: '',
       redirectTo: 'dashboard',
       pathMatch: 'full',
